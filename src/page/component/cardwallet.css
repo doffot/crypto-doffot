@@ -1,0 +1,95 @@
+
+.card_wallet .title_box{
+    width: 100%;
+    display: flex;
+    background:var(--text-color) ;
+    color: var(--bg);   
+}
+
+.da{
+    font-size: 0.8rem;
+}
+
+.ml{
+    margin-left: 5px;
+    padding: 5px;
+}
+.sb{
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+.cp{
+    font-size: 0.7rem;
+    color: var(--text-color);
+    font-weight: 900;
+}
+.usd{
+    font-size: 0.6rem;
+    color: green;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.text_title{
+font-size: 0.7rem;
+font-weight: 200;
+font-style: italic;
+}
+
+.card_wallet .title_box .title_coin{
+width: 300px;
+
+}
+.card_wallet .title_box .title_cantidad, .title_value {
+    width: 300px;
+    text-align: center;
+    
+}
+
+.card_wallet .box_coin{
+    display: flex;
+    width: 100%;      
+    align-items: center;
+    
+    
+    border-bottom: 1px solid var(--line);
+}
+
+.card_wallet .box_coin img{
+    width: 10%;
+    height: 10%;
+}
+
+.card_wallet .box_coin .img_coin{
+   padding: 5px;
+   width: 300px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+         
+}
+
+.card_wallet .box_coin .cantidad_coin{
+    width: 300px;
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_wallet .box_coin .valor_coin{
+    padding: 5px; 
+    width: 300px;
+    text-align: center;
+}
+
+.card_wallet .box_coin .img_coin span{
+    font-size: 0.8rem;
+}
+
+.card_wallet .name_coin h3{
+    font-size: 1rem;
+    background: gray;
+}

@@ -1,0 +1,102 @@
+
+
+.register_account{
+    display: flex;
+    background: #001d30;
+}
+
+.register_box {
+    width: 70%;
+    height: 300px;
+    text-align: center;
+    display: flex;    
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.register_box .box_title{
+    width: 100%;
+    height: 100px;
+    border-radius: 30px;
+    margin-top: 10px;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    background: var(--hover);
+    color: var(--bg);
+}
+
+.icon_1{
+    font-size: 2rem;
+}
+
+.register_box .box_title h3{
+    font-size: 1.5rem;
+}
+
+.register_box .box_form{
+    width: 100%;
+    height: 550px;
+    margin-top: 20px;
+    display: flex;
+    
+    align-items: center;
+    position: relative;
+    background: var(--hover);
+    border-radius: 30px;
+    color: aliceblue;
+}
+
+.register_box .box_form img{
+    width: 30%;
+}
+
+.box_form .register_input{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.box_form .register_input input{
+    width: 90%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--bg);
+    border-bottom: 1px solid var(--bg);
+}
+
+.box_form .register_input span{
+
+    display: flex;
+    
+    font-size: 1rem;
+}
+
+.box_save{
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background: #51eeee;
+    border: none;
+    color: #001d30;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.box_save:hover{
+    background: #001d30;
+    color: #51eeee;
+}
+
+.box_save .icon_save{
+    font-size: 2rem;
+}

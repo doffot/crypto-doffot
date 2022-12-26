@@ -1,0 +1,44 @@
+.monedas{
+    width: 100%;
+    height: 100vh;
+    display: flex;        
+    background: var(--bg2);   
+    transform: skew(0deg,-10deg);
+    position: relative;
+    justify-content: center;
+    padding: 200px;
+    flex-wrap: wrap;
+}
+
+.cortar{
+    transform: skew(0deg,10deg);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.monedas .container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+margin: 0 auto;
+}
+
+.monedas .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.monedas .left p{
+    margin: 1.5rem 0;
+}
+
+.monedas .right{
+    display: flex;
+}
+
+

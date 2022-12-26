@@ -1,0 +1,41 @@
+.menu_box{
+    width: 350px;
+    height: 100vh;
+    background: linear-gradient(to top,#001d30 10%,#51eeee);;
+}
+
+.menu h1{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid var(--bg);
+}
+
+.menu{
+    width: 100%;
+    
+}
+
+.menu ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.menu .link_dash{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    gap: 1rem;
+    color: var(--bg);
+    cursor: pointer;
+}
+
+.menu .link_dash:hover{
+    background: #51eeee;
+    color: var(--text-color);
+
+}

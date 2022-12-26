@@ -1,0 +1,45 @@
+.contenido .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 4rem auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+}
+
+.container left{
+    padding: 1rem;
+}
+
+.container h1{
+    padding: 1rem 0;
+}
+
+.container .right{
+    padding: 1rem;
+}
+
+.container .box_img{
+    width: 100%;
+    display: flex;
+}
+
+.contenido img{
+    width: 90%;
+    margin: auto;
+}
+
+.container .btn_primary{
+    width: 240px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width:800px) {
+    .contenido .container{
+        grid-template-columns: 1fr;
+        margin: 1rem 0;
+    }
+}
